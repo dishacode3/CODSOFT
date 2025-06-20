@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-pink {
+  background: #ee0979;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-orange {
+  background: #b679e0;
+  color: rgb(79, 89, 119);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero {
+  height: 400px;
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: rgb(224, 118, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: rgb(145, 226, 46);
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  background: #4b4242;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-image img {
+  width: 300px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #4e4545;
+}
+
+.service-card {
+  width: 30%;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 10px;
+}
